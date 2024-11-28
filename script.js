@@ -26,17 +26,17 @@ async function CheckWeather(city) {
 
             // Update weather icon based on the condition
             if (data.weather[0].main === "Clouds") {
-                WeatherIcon.src = "images/clouds.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/clouds_jnin3t.png";
             } else if (data.weather[0].main === "Rain") {
-                WeatherIcon.src = "images/rain.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/rain_dsbxys.png";
             } else if (data.weather[0].main === "Clear") {
-                WeatherIcon.src = "images/clear.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/clear_ovj4zk.png";
             } else if (data.weather[0].main === "Snow") {
-                WeatherIcon.src = "images/snow.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/snow_eylvbc.png";
             } else if (data.weather[0].main === "Drizzle") {
-                WeatherIcon.src = "images/drizzle.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/drizzle_eihi0e.png";
             } else if (data.weather[0].main === "Mist") {
-                WeatherIcon.src = "images/mist.png";
+                WeatherIcon.src = "https://res.cloudinary.com/dl7vvhgvw/image/upload/v1732810291/mist_puytpc.png";
             }
 
             // Display weather information and hide error
